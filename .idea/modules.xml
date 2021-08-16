@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/HelloSpringBoot/HelloSpringBoot.iml" filepath="$PROJECT_DIR$/HelloSpringBoot/HelloSpringBoot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaSpringBoot/JavaSpringBoot.iml" filepath="$PROJECT_DIR$/JavaSpringBoot/JavaSpringBoot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MVCSpingBoot/MVCSpingBoot.iml" filepath="$PROJECT_DIR$/MVCSpingBoot/MVCSpingBoot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MybatisSpringBoot/MybatisSpringBoot.iml" filepath="$PROJECT_DIR$/MybatisSpringBoot/MybatisSpringBoot.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/SpringBoot.iml" filepath="$PROJECT_DIR$/.idea/SpringBoot.iml" />
     </modules>
   </component>

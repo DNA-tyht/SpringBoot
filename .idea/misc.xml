@@ -4,6 +4,9 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/HelloSpringBoot/pom.xml" />
+        <option value="$PROJECT_DIR$/WebSpringBoot/pom.xml" />
+        <option value="$PROJECT_DIR$/MVCSpingBoot/pom.xml" />
+        <option value="$PROJECT_DIR$/JavaSpringBoot/pom.xml" />
       </list>
     </option>
   </component>

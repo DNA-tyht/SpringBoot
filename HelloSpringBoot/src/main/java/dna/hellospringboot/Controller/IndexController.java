@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.servlet.ModelAndView;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -46,5 +47,14 @@ public class IndexController {
     @ResponseBody
     public String user() {
         return user.getUserName() + " " + user.getAge();
+    }
+
+    @RequestMapping(value = "/jsp")
+    @ResponseBody
+    public ModelAndView jsp() {
+        ModelAndView mv = new ModelAndView();
+        mv.addObject("message", "Hello SpringBoot");
+        mv.setViewName("jsp");
+        return mv;
     }
 }
